@@ -11,3 +11,4 @@ Examples
 3. EM.stop :: Stopping the reactor
 4. EM::Iterator and EM.add_timer :: Simple iteration over a list of numbers using a timer.
 5. EM.defer :: For integrating blocking operations into the EM control flow.
+6. EM::PeriodicTimer :: For events which have to triggered at periodic intervals.

@@ -13,3 +13,4 @@ Examples
 5. EM.defer :: For integrating blocking operations into the EM control flow
 6. EM::PeriodicTimer :: For events which have to triggered at periodic intervals
 7. EM::Queue :: The recursive procs idiom
+8. EM::popen :: Demonstrates a low level API for executing system commands

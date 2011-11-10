@@ -6,5 +6,8 @@ Examples for the [EventMachine API](http://eventmachine.rubyforge.org/EventMachi
 Examples
 ========
 
-1. Starting the reactor - EM.run
-2. Evented libraries often need to check if the reactor is already running? - EM.reactor_running?
+1. EM.run :: Starting the reactor
+2. EM.reactor_running? :: Evented libraries often need to check if the reactor is running.
+3. EM.stop :: Stopping the reactor
+4. EM::Iterator and EM.add_timer :: Simple iteration over a list of numbers using a timer.
+5. EM.defer :: For integrating blocking operations into the EM control flow.

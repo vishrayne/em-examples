@@ -1,14 +1,11 @@
 # Check if the reactor is running
-
+require 'rubygems'
 require 'eventmachine'
 
 class SomeRandomLibrary
   def self.function
-    if EM.reactor_running?
-      puts "The reactor is running. Now press Ctrl-C."
-    else
-      raise "The EM reactor is not running"
-    end  
+    raise "The EM reactor is not running" unless EM.reactor_running?
+    puts "The reactor is running. Now press Ctrl-C."
   end
 end
 
